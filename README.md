@@ -76,7 +76,7 @@ A monolithic MVC application with a Python sidecar service, designed for operati
 
 ### 3.1 High-Level Architecture
 
-> ![System Architecture](./docs/architecture-diagram.png)
+> ![System Architecture](./docs/architecture_diagram.png)
 >
 > *Recommended: A block diagram showing the Browser → Apache/.htaccess → PHP Router → Controllers → Models → MySQL flow, with lateral blocks for the Python OCR Service, SMTP Gateway, PDF Generation Pipeline, and File Storage layer.*
 

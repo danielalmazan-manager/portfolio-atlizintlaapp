@@ -76,7 +76,7 @@ A monolithic MVC application with a Python sidecar service, designed for operati
 
 ### 3.1 High-Level Architecture
 
-> **`[Insert Architecture Diagram Here]`**
+> ![System Architecture](./docs/architecture-diagram.png)
 >
 > *Recommended: A block diagram showing the Browser → Apache/.htaccess → PHP Router → Controllers → Models → MySQL flow, with lateral blocks for the Python OCR Service, SMTP Gateway, PDF Generation Pipeline, and File Storage layer.*
 
@@ -237,7 +237,7 @@ The platform was designed under a **"never trust, always verify"** principle, cr
 
 The schema follows a normalized relational model with 18+ tables organized into four domains.
 
-> **`[Insert ERD Diagram Here]`**
+> ![ERD Diagram](./docs/database_erd.png)
 >
 > *Recommended: An Entity-Relationship Diagram generated from the `db_structure.txt` schema, highlighting the relationships between `tabla_cliente`, `tabla_producto_cliente`, `cuentaahorro_cotizacion`, `cuentaahorro_contrato`, and `contrato_firmas_evidencia`.*
 
